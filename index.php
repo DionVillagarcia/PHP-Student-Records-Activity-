@@ -1,12 +1,14 @@
 <?php
 
-require "dp.php";
+require "db.php";
 
 $stmt = $pdo->query("SELECT * FROM students");
 
 $students = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
