@@ -1,0 +1,92 @@
+h1{
+  color: rgb(59, 130, 246);
+}
+
+a{
+  text-decoration: none;
+  color:rgb(59, 130, 246);
+  font-size: 15px;
+}
+
+body{
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.table-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.add-student-button{
+  margin-top: 10px;
+  padding: 5px 7px;
+  border: 1px solid grey;
+  border-radius: 7px;
+  color:rgb(59, 130, 246);
+}
+
+th,
+td{
+  padding: 10px
+}
+
+th{
+  background: rgb(176, 206, 255);
+}
+
+table{
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.delete-button{
+  padding: 4px 5px;
+  border: 1px solid grey;
+  border-radius: 7px;
+  
+}
+
+
+/* CSS ng create.php
+*/
+
+.form-add-student{
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 0;
+}
+
+.add-student-form{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  
+}
+
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.add-student-button1{
+  border: 1px solid; 
+  border-radius: 10px;
+  padding: 5px;
+  color:rgb(59, 130, 246);
+}
