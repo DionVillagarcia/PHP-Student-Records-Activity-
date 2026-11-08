@@ -43,6 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
   if (empty($errors)) {
 
+    //  {#fd4,7}
     $stmt = $pdo->prepare(
       "UPDATE students
              SET full_name = :full_name,

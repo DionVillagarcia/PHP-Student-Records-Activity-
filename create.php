@@ -4,7 +4,7 @@ require "db.php";
 
 $errors = [];
 
-//  {#115,5}
+
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
   $full_name = trim($_POST["full_name"] ?? "");
@@ -20,6 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $errors[] = "Please enter a valid email address.";
   }
 
+  //  {#51a,16}
   if (empty($errors)) {
 
     $stmt = $pdo->prepare(

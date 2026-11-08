@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Parallax Website</title>
+
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+
+  <body>
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar">
+      <a href="#home" class="logo"> PARALLAX </a>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <main>
+      <section class="hero" id="home">
+        <!-- Parallax layers -->
+
+        <div class="parallax-layer sky"></div>
+
+        <div class="parallax-layer mountains"></div>
+
+        <div class="parallax-layer trees"></div>
+
+        <div class="hero-content">
+          <p class="subtitle">WELCOME TO MY WEBSITE</p>
+
+          <h1>
+            Build Beyond<br />
+            The Ordinary.
+          </h1>
+
+          <p class="description">
+            A simple website demonstrating a smooth JavaScript parallax
+            scrolling effect.
+          </p>
+
+          <a href="#about" class="button"> Explore </a>
+        </div>
+
+        <div class="scroll-indicator">
+          Scroll Down
+          <span>↓</span>
+        </div>
+      </section>
+
+      <!-- =========================
+             ABOUT
+        ========================== -->
+
+      <section class="section about" id="about">
+        <div class="container">
+          <div class="section-number">01</div>
+
+          <div class="section-content">
+            <p class="section-label">ABOUT</p>
+
+            <h2>Creating experiences through code.</h2>
+
+            <p>
+              Parallax scrolling creates the illusion of depth by moving
+              different elements at different speeds while the user scrolls.
+            </p>
+
+            <p>
+              This website uses JavaScript and requestAnimationFrame() to create
+              a smooth multi-layer scrolling effect.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+             PROJECTS
+        ========================== -->
+
+      <section class="section projects" id="projects">
+        <div class="container">
+          <div class="section-number">02</div>
+
+          <div class="section-content">
+            <p class="section-label">PROJECTS</p>
+
+            <h2>Things I've built.</h2>
+
+            <div class="project-grid">
+              <article class="project-card">
+                <span> 01 </span>
+
+                <h3>Portfolio</h3>
+
+                <p>
+                  A responsive personal portfolio built using HTML, CSS and
+                  JavaScript.
+                </p>
+              </article>
+
+              <article class="project-card">
+                <span> 02 </span>
+
+                <h3>Web Application</h3>
+
+                <p>
+                  A dynamic web application designed to solve a real-world
+                  problem.
+                </p>
+              </article>
+
+              <article class="project-card">
+                <span> 03 </span>
+
+                <h3>ServerWatch</h3>
+
+                <p>
+                  An operating system resource monitoring and file sharing
+                  system.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+             CONTACT
+        ========================== -->
+
+      <section class="section contact" id="contact">
+        <div class="container">
+          <div class="section-number">03</div>
+
+          <div class="section-content">
+            <p class="section-label">CONTACT</p>
+
+            <h2>Let's build something.</h2>
+
+            <p>Have an idea, project or question? Feel free to get in touch.</p>
+
+            <a href="mailto:hello@example.com" class="button"> Contact Me </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================
+         FOOTER..
+    ========================== -->
+
+    <footer>
+      <p>© 2026 Parallax Website</p>
+
+      <a href="#home"> Back to top ↑ </a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
